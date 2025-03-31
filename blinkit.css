@@ -1,0 +1,194 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding-right: 20px;
+    border-right: 0.1px solid rgb(231, 226, 226);
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px 20px;
+}
+.location{
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.location img {
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.search{
+    display: flex;
+    border: 0.1px solid rgb(233, 229, 229);
+    border-radius: 10px;
+    padding: 7px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-color: rgb(233, 229, 229);
+    
+}
+.search input{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 229, 229);
+}
+.log{
+    align-items: center;
+    font-size: 30px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+    gap: 4px;
+    font-size: 20px;
+    font-style: normal;
+}
+.sub{
+    margin-left: 10px;
+}
+.sub img{
+    margin-left: 10px;
+}
+.sec{
+    margin-top: 30px;
+}
+/* product */
+.nor-all{
+    display: flex;
+}
+.nor{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 0.1px solid  rgb(233, 229, 229);
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 15px;
+}
+.n1 p{
+    display: flex;
+    font-size: 12px; 
+    margin-bottom: 6px;  
+}
+.n2{
+    margin-bottom: 15px;
+}
+.n{
+    margin-bottom: 15px;
+    color: gray;
+}
+.n3 button{
+    margin-left: 40px;
+    margin-right: 0px;   
+    padding: 8px 20px;
+    border: 0.1px solid green;
+    color: green;
+    border-radius: 5px;
+    background-color: white;
+}
+/* footer */
+footer{
+    margin-top: 80px;
+}
+.sp {
+    display: flex; 
+    margin-left: 17px; 
+    font-size: 18px;  
+}
+.sp .cat{
+    margin-left: 24%;
+}
+.cat a{
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7px;
+}
+ .foot1 a{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.all{
+    display: flex;
+    gap: 35px;
+    text-decoration: none;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+}
+.foot2 a{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.fo-im{
+    display: flex;
+    color: gray;
+    margin-top: 60px;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.fo1{
+    display: flex;
+    margin-left: 60px;
+    gap: 15px;  
+}
+.fo1 img{
+   display: flex;
+   margin-bottom: 5px;
+}
+.im {
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    
+}
+.wd p{
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+
